@@ -1,0 +1,63 @@
+{
+	"__comment": "Made by minerguy31 for Vanilla Swirl",
+	"ambientocclusion": true,
+	"textures": {
+		"JukeBox_Side": "blocks/jukebox_side",
+		"JukeBox_Top": "blocks/jukebox_top",
+		"particle": "blocks/jukebox_side"
+	},
+	"elements": [
+		{
+			"from": [ 0, 0, 0 ],
+			"to": [ 7, 16, 16 ],
+			"faces": {
+				"north": { "uv": [ 9, 0, 16, 16 ], "texture": "#JukeBox_Side", "cullface": true },
+				"south": { "uv": [ 0, 0, 7, 16 ], "texture": "#JukeBox_Side", "cullface": true },
+				"east": { "uv": [ 1, 1, 2, 2 ], "texture": "#JukeBox_Side", "cullface": true },
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#JukeBox_Side", "cullface": true },
+				"up": { "uv": [ 0, 0, 7, 16 ], "texture": "#JukeBox_Top", "cullface": true },
+				"down": { "uv": [ 0, 0, 7, 16 ], "texture": "#JukeBox_Side", "cullface": true }
+			}
+		},
+		{
+			"from": [ 9, 0, 0 ],
+			"to": [ 16, 16, 16 ],
+			"faces": {
+				"north": { "uv": [ 0, 0, 7, 16 ], "texture": "#JukeBox_Side", "cullface": true },
+				"south": { "uv": [ 9, 0, 16, 16 ], "texture": "#JukeBox_Side", "cullface": true },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#JukeBox_Side", "cullface": true },
+				"west": { "uv": [ 1, 1, 2, 2 ], "texture": "#JukeBox_Side", "cullface": true },
+				"up": { "uv": [ 9, 0, 16, 16 ], "texture": "#JukeBox_Top", "cullface": true },
+				"down": { "uv": [ 9, 0, 16, 16 ], "texture": "#JukeBox_Side", "cullface": true }
+			}
+		},
+		{
+			"from": [ 7, 0, 0 ],
+			"to": [ 9, 16, 3 ],
+			"faces": {
+				"north": { "uv": [ 7, 0, 9, 16 ], "texture": "#JukeBox_Side", "cullface": true },
+				"south": { "uv": [ 1, 1, 3, 15 ], "texture": "#JukeBox_Top", "cullface": true },
+				"up": { "uv": [ 7, 0, 9, 3 ], "texture": "#JukeBox_Top", "cullface": true },
+				"down": { "uv": [ 7, 13, 9, 16 ], "texture": "#JukeBox_Side", "cullface": true }
+			}
+		},
+		{
+			"from": [ 7, 0, 13 ],
+			"to": [ 9, 16, 16 ],
+			"faces": {
+				"north": { "uv": [ 1, 1, 3, 15 ], "texture": "#JukeBox_Top", "cullface": true },
+				"south": { "uv": [ 7, 0, 9, 16 ], "texture": "#JukeBox_Side", "cullface": true },
+				"up": { "uv": [ 7, 13, 9, 16 ], "texture": "#JukeBox_Top", "cullface": true },
+				"down": { "uv": [ 7, 0, 9, 3 ], "texture": "#JukeBox_Side", "cullface": true }
+			}
+		},
+		{
+			"from": [ 7, 0, 3 ],
+			"to": [ 9, 8, 13 ],
+			"faces": {
+				"up": { "uv": [ 10, 3, 12, 13 ], "texture": "#JukeBox_Top", "cullface": true },
+				"down": { "uv": [ 7, 3, 9, 13 ], "texture": "#JukeBox_Side", "cullface": true }
+			}
+		}
+	]
+}
